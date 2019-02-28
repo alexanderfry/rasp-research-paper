@@ -38,5 +38,5 @@ standalone release v8.0.0.M21 under Java version 1.8.0\_171\_b11 on Mac
 OS X v10.13.6 with the following options in the Terminal application:
 ```java -jar webgoat-server-8.0.0.M21.jar --server.port=9080 --server.address=127.0.0.1``` (Figure 2).
 
-![](images/WG_Running_WebGoat_on_the_Command_Line_Figure_2.png)
+![](images/WG_Running_WebGoat_Command_Line_Figure_2.png)
 Figure 2. Running WebGoat on the Command Line
