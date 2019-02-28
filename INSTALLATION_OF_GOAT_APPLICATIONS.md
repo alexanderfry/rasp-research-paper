@@ -24,7 +24,7 @@ the database was seeded by running the command ```npm run db:seed```. And
 *npm* was started with the command ```npm start```, both run in the Mac OS X
 Terminal application (Figure 1).
 
-![](images/NG_Running_NodeGoat_on_the_Command_line_Figure_1.png){width="6.0in" height="0.9472222222222222in"}
+![](images/NG_Running_NodeGoat_on_the_Command_line_Figure_1.png)
 
 Figure 1. Running NodeGoat on the Command Line
 
@@ -39,6 +39,6 @@ standalone release v8.0.0.M21 under Java version 1.8.0\_171\_b11 on Mac
 OS X v10.13.6 with the following options in the Terminal application:
 ```java -jar webgoat-server-8.0.0.M21.jar --server.port=9080 --server.address=127.0.0.1``` (Figure 2).
 
-![](images/WG_Running_WebGoat_on_the_Command_Line_Figure_2.png){width="6.0in" height="0.6479166666666667in"}
+![](images/WG_Running_WebGoat_on_the_Command_Line_Figure_2.png)
 
 Figure 2. Running WebGoat on the Command Line

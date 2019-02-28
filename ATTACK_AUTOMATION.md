@@ -14,8 +14,7 @@ the project run with arguments for WebGoat8 running on localhost
 Chrome browser, headless mode and the login credentials for the guest1
 user (Figure 1).
 
-![](images/WG_Running_WebGoat8-Selenium_Project_on_Command_Line_Figure_1.png){width="6.0in" height="0.8868055555555555in"}
-
+![](images/WG_Running_WebGoat8-Selenium_Project_on_Command_Line_Figure_1.png)
 Figure 1. Running WebGoat8-Selenium Project on Command Line
 
 If the project is run in headless mode, there is no visible progress
@@ -38,25 +37,21 @@ configured to listen on localhost (127.0.0.1), TCP port 8080 and
 Intercept was turned off as shown in the following two screenshots
 (Figure 2).
 
-![](images/WG_Enable_Burp_Proxy_Listener_and_Turn_Intercept_Off_Figure_2.png){width="6.0in"
-height="1.5715277777777779in"}![](media/image3.png){width="6.0in"
-height="0.6597222222222222in"}
-
+![](images/WG_Enable_Burp_Proxy_Listener_and_Turn_Intercept_Off_Figure_2.png)![](images/WG_Turn_Intercept_Off_Figure_2.png)
 Figure 2. Enable Burp Proxy Listener and Turn Intercept Off
 
 After the WebGoat8-Selenium project was re-compiled with proxy support,
 the project was run with the additional arguments for proxy, proxyHost
 and proxyPort (Figure 3).
 
-![](images/WG_Running_WebGoat8-Selenium_through_Burp_Proxy_Figure_3.png){width="6.0in" height="0.7631944444444444in"}Figure
+![](images/WG_Running_WebGoat8-Selenium_through_Burp_Proxy_Figure_3.png)
 Figure 3. Running WebGoat8-Selenium through Burp Proxy
 
 The project traffic flowed through Burp Proxy and was captured. The
 following screenshot shows an excerpt of that traffic in Proxy-\>HTTP
 history tab (Figure 4).
 
-![](images/WG_WebGoat8-Selenium_traffic_in_Burp_Proxy_HTTP_history_Figure_4.png){width="6.0in" height="1.4951388888888888in"}
-
+![](images/WG_WebGoat8-Selenium_traffic_in_Burp_Proxy_HTTP_history_Figure_4.png)
 Figure 4. WebGoat8-Selenium traffic in Burp Proxy HTTP history
 
 A Burp Macro was created with the full sequence of attack traffic
@@ -69,8 +64,7 @@ WebGoat8 Attacks Default was chosen for the Macro description. The
 following screenshot shows the Macro Editor with an excerpt of the
 attack traffic (Figure 5).
 
-![](images/WG_Burp_Macro_Editor_WebGoat8_Attacks_Figure_5.png){width="6.0in" height="2.8513888888888888in"}
-
+![](images/WG_Burp_Macro_Editor_WebGoat8_Attacks_Figure_5.png)
 Figure 5. Burp Macro Editor WebGoat8 Attacks
 
 The Macro was run by clicking the *Test macro* button in the lower
@@ -83,8 +77,7 @@ concept exploit was verified by viewing the HTTP Response in the Macro
 Tester window. A sample HTTP Response is shown for the
 SqlInjectionAdvanced Lesson 2 in the following screenshot (Figure 6).
 
-![](images/WG_Burp_Macro_Tester_WebGoat8_Attacks_Figure_6.png){width="6.0in" height="3.9125in"}
-
+![](images/WG_Burp_Macro_Tester_WebGoat8_Attacks_Figure_6.png)
 Figure 6. Burp Macro Tester WebGoat8 Attacks
 
 Some of the proof of concept exploits failed to exploit the WebGoat8
@@ -104,15 +97,13 @@ Standard extension was configured in Firefox Quantum v63.0.3 (64-bit) so
 that all HTTP traffic would use Burp Proxy. FoxyProxy makes it easy to
 switch among different proxy configurations (Figure 7).
 
-![](images/NG_FoxyProxy_Standard_Configuration_Figure_7.png){width="6.0in" height="2.3777777777777778in"}
-
+![](images/NG_FoxyProxy_Standard_Configuration_Figure_7.png)
 Figure 7. FoxyProxy Standard Configuration
 
 After browsing to the NodeGoat login screen, NodeGoat authentication was
 completed using the default *user1* credentials (Figure 8).
 
-![](images/NG_OWASP_NodeGoat_Login_Page_Figure_8.png){width="6.0in" height="2.2354166666666666in"}
-
+![](images/NG_OWASP_NodeGoat_Login_Page_Figure_8.png)
 Figure 8. OWASP NodeGoat Login Page
 
 Subsequently the known vulnerabilities in NodeGoat were manually
