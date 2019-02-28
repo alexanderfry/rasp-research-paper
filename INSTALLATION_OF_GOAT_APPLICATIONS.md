@@ -25,7 +25,6 @@ the database was seeded by running the command ```npm run db:seed```. And
 Terminal application (Figure 1).
 
 ![](images/NG_Running_NodeGoat_on_the_Command_line_Figure_1.png)
-
 Figure 1. Running NodeGoat on the Command Line
 
 ## WebGoat
@@ -40,5 +39,4 @@ OS X v10.13.6 with the following options in the Terminal application:
 ```java -jar webgoat-server-8.0.0.M21.jar --server.port=9080 --server.address=127.0.0.1``` (Figure 2).
 
 ![](images/WG_Running_WebGoat_on_the_Command_Line_Figure_2.png)
-
 Figure 2. Running WebGoat on the Command Line
